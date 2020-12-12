@@ -1,0 +1,61 @@
+.words-container {
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #424651;
+  padding: 10px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.typing-container {
+  display: flex;
+  width: fit-content;
+}
+
+.word-typed {
+  color: #21fa90;
+}
+
+.word-wrong {
+  color: #ff2e00;
+}
+
+.words-stats {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #af3b6e;
+  background-color: #424651;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #373a43;
+  align-items: center;
+}
+
+.title {
+  color: white;
+}
+
+.reset-button {
+  margin-left: 10px;
+}
+
+.text-input-container {
+  display: flex;
+}
+
+.text-input-field {
+  width: 20rem;
+}
+
+.word {
+  margin-right: 0.5em;
+}
